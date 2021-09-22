@@ -9,5 +9,5 @@ depth: int = int(input("Depth: "))
 i: int = 1
 
 while i <= depth:
-    print(TREE + (" " + TREE) * (i - 1))
+    print(TREE * i)
     i = i + 1
